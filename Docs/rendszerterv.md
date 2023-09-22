@@ -36,3 +36,10 @@ A Vicckategorizáló alkalmazás fejlesztésest következő módon lépésekben 
 - Első hét a funkciónális specifikáció és követelmény specifikáció megírása.
 - Második hét a rendszerterv elkészítése. Az alkalmazás kinézetének megtervezése.
 - Harmadik hét a program megírása és tesztelés.
+
+## Erőforrások:
+
+•	Fejlesztők iOS és Android platformokhoz.
+•	UI/UX tervezők
+•	Adatbázis kezelő
+•	Pénzügyi finanszírozás
