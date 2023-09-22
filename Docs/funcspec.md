@@ -30,3 +30,12 @@ vagy akár vicces történeteket is megoszthatnak. Azonban a kommentelést moder
 Ezt egy komment mezővel lehetne megoldani minden vicc alatt ezt érdemes lehet időnként letörölni hogy,
 ne gyüljhön föl úl sok, de persze lementési lehetőséget is lehet biztosítani.
 
+Moderátorok Kiválasztása: A moderátorok kiválasztásához az alkalmazás üzemeltetője vagy
+adminisztrátora elvégezheti a válogatást. A moderátorok olyan felhasználók lehetnek,
+akik már hosszabb ideje és aktívan használják az alkalmazást, és megfelelő etikettet mutatnak a kommentekben.
+Ezeket a kiválasztottaktat mondjuk egy jelentekezés alkalmával lehet válogatni azokat kell előnyben
+részesíteni akik réggebi felhasználók vagy aktívan belefolynak a közösség életébe.
+Őket egy oktatás után különböző joggokkal felruházva lehet alkalmazni.
+
+Moderáció Feladatai: A moderátorok felelőssége az lesz, hogy ellenőrizzék a felhasználók által beküldött kommenteket,
+és eltávolítsák azokat, amelyek megsértik az alkalmazás közösségi szabályzatát vagy etikai irányelveit.
