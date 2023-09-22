@@ -19,3 +19,12 @@ kis csapatát is kell majd foglalkoztatnunk. A viccekhez hozáférést szeretné
 szeretnének regisztrálni őket egy guest profilba tennénk ahonnan csak a viccek megtekintése lenne elérheő.
 A kategorizálás a felhasználók számára  egyszerű rendszerben kell hogy történjen, A háttérben futó adatbázisnak
 rugalmasnak kell lennie hiszen a viccek tárháza folyamatosan bővül így ehez alkalmazkodni kell.
+
+## 3. Jelenlegi üzleti folyamatok:
+
+Jelenleg a felhasználóknak manuálisan kell böngészniük a weben vagy más platformokon a viccekért, és nincs egységes hely,
+ahol saját vicceiket hozzáadhatnák vagy törölhetnék. A mialkalmazásunk biztosít egy helyet ahol mindig megtalálják a
+kedvükre való viccet. Az alkalmazásunk jelenleg tartalmazza a kategória részt amin belül több kategóriára bontva
+böngészhetünk a viccek között. Tartalmazza valamint a saját vicceinket amiket mi tudunk hozzáadni. Valamint az általunk
+kedvelt vicceket is külön tudjuk kezelni. Az alkalmazás fő profilja viszont a random vicc generálás amit szintén
+meg lehet valósítani.
