@@ -16,3 +16,11 @@ a saját vicceik listája vagy a beállítások képernyője.
   Az alkalmazás frissítéseit is ezen
   keresztül fogjuk kiadni.
   A Felhasználói visszajelzések alapján folyamatosan javítani és fejleszteni fogjuk az alkalmazást.
+
+## Projektterv:
+
+A projekt megvalósítása során az agilis fejlesztési módszertant fogjuk követni, ami lehetővé teszi számunkra, hogy gyorsan
+reagáljunk a megbízó változtatásaira és a felhasználói visszajelzésekre.
+A projekt számos sprintre osztjuk fel, amelyek
+mindegyike egy konkrét funkció megvalósítására törekszik.
+
