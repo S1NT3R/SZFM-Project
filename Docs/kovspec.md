@@ -25,3 +25,17 @@ mutatnak a kommentekben.
 
 Moderáció Feladatai: A moderátorok felelőssége az lesz, hogy ellenőrizzék a felhasználók által beküldött kommenteket,
 és eltávolítsák azokat, amelyek megsértik az alkalmazás közösségi szabályzatát vagy etikai irányelveit.
+
+## 6. Követelménylista:
+
+- Keresési funkció különböző kategóriákban
+
+- Lehetőség saját viccek hozzáadására
+
+- Lehetőség a saját viccek törlésére
+
+- Felhasználóbarát felület
+
+- Adatvédelmi szabályok betartása
+
+- Moderációs eszközök a megfelelő tartalom biztosításához
