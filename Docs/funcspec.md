@@ -16,3 +16,7 @@ Profil Szerkesztése: Bejelentkezés után a felhasználók megtehetik a profilj
 Profilkép hozzáadására vagy megváltoztatására is lehetőséget nyújtunk a kép feltöltését vagy kiválasztását a galériából  egy image picker library-val oldjhatjuk meg.
 Bemutatkozás mezője, valamint egyéb személyes információk szerkesztése is elérhető. Itt is használhatunk Firebaset.
 
+Kedvencek Gyűjteménye: A felhasználók kedvencek közé tehetik a legkedveltebb vicceket, amelyeket
+később könnyen megtekinthetnek, ehez használhatunk egy adatbázist amiben valhol csináluk egy
+kedvencekhez tartozó részt .
+
