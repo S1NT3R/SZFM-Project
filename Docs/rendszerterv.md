@@ -29,3 +29,24 @@ mindegyike egy konkrét funkció megvalósítására törekszik.
 - Kezdőkép:
 
 ![](Opening.png)
+
+## Karbantartási terv:
+
+1. Rendszerfrissítések
+- Cél: Biztosítani, hogy a rendszer mindig a legfrissebb verziót használja a biztonság és teljesítmény optimalizálása érdekében.
+- Gyakoriság: Havi rendszerességgel.
+- Folyamat:
+
+Ellenőrizni a rendszer alkalmazásait és komponenseit a legújabb verziókért.
+Vizsgálni a frissítések kompatibilitását a jelenlegi rendszerrel.
+Sikeres tesztek után implementálni a frissítéseket.
+
+2. Adatbázis Karbantartás
+- Cél: Biztosítani, hogy az adatbázis optimálisan működjön, és minimalizálni az adatvesztés kockázatát.
+
+- Gyakoriság: Negyedévente.
+
+- Folyamat:
+
+Végrehajtani az adatbázis karbantartási feladatokat, mint például az indexek újraépítése, a táblák optimalizálása, a redundáns adatok eltávolítása stb.
+Biztosítani a biztonsági mentéseket az adatbázisról.
