@@ -12,3 +12,7 @@ ezt a standard ellenőrző li kes megoldással csinálhatjuk.
 Ha a regisztráció sikeres, akkor a felhasználó bejelentkezhet.
 Használhatjuk mondjuk a Firebase Authentication-t a felhasználók regisztrációjának és bejelentkezésének kezelésére Flutterben.
 
+Profil Szerkesztése: Bejelentkezés után a felhasználók megtehetik a profiljuk testre szabását a navigációs sávon keresztül.
+Profilkép hozzáadására vagy megváltoztatására is lehetőséget nyújtunk a kép feltöltését vagy kiválasztását a galériából  egy image picker library-val oldjhatjuk meg.
+Bemutatkozás mezője, valamint egyéb személyes információk szerkesztése is elérhető. Itt is használhatunk Firebaset.
+
