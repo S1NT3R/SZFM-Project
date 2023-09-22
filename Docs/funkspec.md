@@ -33,3 +33,9 @@ szabályoknak. A vicceknek megfelelőnek kell lenniük, és nem tartalmazhatnak 
 
 - Moderációs eszközök: A rendszernek képesnek kell lennie arra, hogy moderálja a tartalmat annak érdekében,
   hogy biztosítsa a közösség számára elfogadható tartalom létrehozását.
+
+## Képernyő terv:
+
+- Kezdőkép:
+
+![](Opening.png)
