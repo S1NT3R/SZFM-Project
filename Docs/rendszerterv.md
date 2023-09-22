@@ -24,3 +24,8 @@ reagáljunk a megbízó változtatásaira és a felhasználói visszajelzésekre
 A projekt számos sprintre osztjuk fel, amelyek
 mindegyike egy konkrét funkció megvalósítására törekszik.
 
+## Képernyő terv:
+
+- Kezdőkép:
+
+![](Opening.png)
