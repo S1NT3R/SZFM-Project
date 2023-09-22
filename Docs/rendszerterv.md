@@ -30,3 +30,9 @@ A Vicckategorizáló alkalmazás fejlesztésest következő módon lépésekben 
 7.	Tesztelés és Hibajavítás
 8.	Felhasználói visszajelzések begyűjtése és a felhasználói élmény javítása.
 9.	Végleges verzió kiadása.
+
+## Időpontok:
+
+- Első hét a funkciónális specifikáció és követelmény specifikáció megírása.
+- Második hét a rendszerterv elkészítése. Az alkalmazás kinézetének megtervezése.
+- Harmadik hét a program megírása és tesztelés.
