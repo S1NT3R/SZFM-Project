@@ -1,0 +1,41 @@
+## 4. Igényelt üzleti folyamatok:
+
+Az új rendszerben a felhasználók képesek lesznek keresni a viccek között különböző kategóriákban, hozzáadni saját
+vicceiket egy egyszerű felületen keresztül, és törölni azokat, amelyeket már nem szeretnének megosztani.
+
+Regisztráció: Az alkalmazás kezdőképernyőjén jelenjen meg a "Regisztráció" gomb,
+amelyre kattintva a felhasználó bejuthat a regisztrációs felületre.
+A regisztrációs felületen megkérjük a felhasználót, hogy adja meg e-mail címét és jelszavát,
+a jelelszó erősségét támodathatjuk javaslatokkal is amik a jelsző mező allat jelenhetne meg.
+Az e-mail cím validáció fontos, hogy ne lehessen ugyanazzal az e-mail címmel többször regisztrálni
+ezt a standard ellenőrző li kes megoldással csinálhatjuk.
+Ha a regisztráció sikeres, akkor a felhasználó bejelentkezhet.
+Használhatjuk mondjuk a Firebase Authentication-t a felhasználók regisztrációjának és bejelentkezésének kezelésére Flutterben.
+
+Profil Szerkesztése: Bejelentkezés után a felhasználók megtehetik a profiljuk testre szabását a navigációs sávon keresztül.
+Profilkép hozzáadására vagy megváltoztatására is lehetőséget nyújtunk a kép feltöltését vagy kiválasztását a galériából  egy image picker library-val oldjhatjuk meg.
+Bemutatkozás mezője, valamint egyéb személyes információk szerkesztése is elérhető. Itt is használhatunk Firebaset.
+
+Kedvencek Gyűjteménye: A felhasználók kedvencek közé tehetik a legkedveltebb vicceket, amelyeket
+később könnyen megtekinthetnek, ehez használhatunk egy adatbázist amiben valhol csináluk egy
+kedvencekhez tartozó részt .
+
+Viccek Hozzáadása: A regisztrált felhasználók új vicceket is hozzáadhatnak az alkalmazáshoz.
+A viccek hozzáadása során meg kell adni a kategóriát és a vicc szövegét egy menüben.
+Ezt esetleg egy ürlapos megoldással lehetne megcsinálni modnjuk ennek az ürlapnak a tartalmát
+mentjük egy adatbázisba.
+
+Kommentek Hozzáadása: A felhasználók hozzászólhatnak a viccekhez, megoszthatják a véleményüket,
+vagy akár vicces történeteket is megoszthatnak. Azonban a kommentelést moderáció alá kell helyezni.
+Ezt egy komment mezővel lehetne megoldani minden vicc alatt ezt érdemes lehet időnként letörölni hogy,
+ne gyüljhön föl úl sok, de persze lementési lehetőséget is lehet biztosítani.
+
+Moderátorok Kiválasztása: A moderátorok kiválasztásához az alkalmazás üzemeltetője vagy
+adminisztrátora elvégezheti a válogatást. A moderátorok olyan felhasználók lehetnek,
+akik már hosszabb ideje és aktívan használják az alkalmazást, és megfelelő etikettet mutatnak a kommentekben.
+Ezeket a kiválasztottaktat mondjuk egy jelentekezés alkalmával lehet válogatni azokat kell előnyben
+részesíteni akik réggebi felhasználók vagy aktívan belefolynak a közösség életébe.
+Őket egy oktatás után különböző joggokkal felruházva lehet alkalmazni.
+
+Moderáció Feladatai: A moderátorok felelőssége az lesz, hogy ellenőrizzék a felhasználók által beküldött kommenteket,
+és eltávolítsák azokat, amelyek megsértik az alkalmazás közösségi szabályzatát vagy etikai irányelveit.
