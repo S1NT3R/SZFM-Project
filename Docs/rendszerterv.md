@@ -17,3 +17,16 @@ Az alkalmazás célja a következők megvalósítása:
 •	Biztosítani a felhasználóknak egy könnyen kezelhető és reszponzív felületet.
 •	Vicces tartalmak könnyebb megosztása és terjesztésének elősegítése.
 •	Egy folyamatosan bővülő vicc adatbázis létrehozása, ami segíti az ilyen tartalmak megőrzését.
+
+## Terv:
+
+A Vicckategorizáló alkalmazás fejlesztésest következő módon lépésekben tervezzük:
+1.	Projektfeladatok lehetőségek meghatározása.
+2.	Felhasználói interface dizájn megtervezése.
+3.	Viccek kezdő adatbázisának létrehozása.
+4.	Viccek hozzáadásának és szerkesztésének funkcióinak kifejlesztése.
+5.	Keresési és böngészési funkciók implementálása.
+6.	Viccek értékelésének és megjelölésének hozzáadása.
+7.	Tesztelés és Hibajavítás
+8.	Felhasználói visszajelzések begyűjtése és a felhasználói élmény javítása.
+9.	Végleges verzió kiadása.
