@@ -50,3 +50,13 @@ Sikeres tesztek után implementálni a frissítéseket.
 
 Végrehajtani az adatbázis karbantartási feladatokat, mint például az indexek újraépítése, a táblák optimalizálása, a redundáns adatok eltávolítása stb.
 Biztosítani a biztonsági mentéseket az adatbázisról.
+
+3. Hibajavítás
+- Cél: Kijavítani a felhasználók által jelzett hibákat és problémákat.
+- Gyakoriság: Amint beérkezik egy hibajelentés.
+
+- Folyamat:
+
+Rögzíteni a bejelentett hibákat.
+Azonosítani a hibák okait és megoldását.
+Implementálni a szükséges javításokat.
