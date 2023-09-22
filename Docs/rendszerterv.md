@@ -43,3 +43,18 @@ A Vicckategorizáló alkalmazás fejlesztésest következő módon lépésekben 
 •	UI/UX tervezők
 •	Adatbázis kezelő
 •	Pénzügyi finanszírozás
+
+## Rendszerarchitektúra:
+
+Az alkalmazás Flutterben fog készülni Androidra. 
+A Flutter egy nyílt forráskódú UI szoftverfejlesztési eszköztár, amelyet 
+a Google fejlesztett ki.
+Lehetővé teszi alkalmazások gyors fejlesztését kód alapból.
+- Adatmodell:
+Az alkalmazás adatmodellje tartalmazza a viccek és a felhasználók adatait. 
+A viccekhez tartozik egy cím egy szöveg és 
+egy kategória.
+A felhasználók beírhatják a keresett vicc címét vagy kulcsszavait.
+A képernyő alján található egy 
+navigációs sáv, amely lehetővé teszi a felhasználók számára hogy, váltogassanak a különböző nézetek kjözött, mint például
+a saját viccek listája vagy a beállítások képernyője.
