@@ -25,3 +25,8 @@ A viccek hozzáadása során meg kell adni a kategóriát és a vicc szövegét 
 Ezt esetleg egy ürlapos megoldással lehetne megcsinálni modnjuk ennek az ürlapnak a tartalmát
 mentjük egy adatbázisba.
 
+Kommentek Hozzáadása: A felhasználók hozzászólhatnak a viccekhez, megoszthatják a véleményüket,
+vagy akár vicces történeteket is megoszthatnak. Azonban a kommentelést moderáció alá kell helyezni.
+Ezt egy komment mezővel lehetne megoldani minden vicc alatt ezt érdemes lehet időnként letörölni hogy,
+ne gyüljhön föl úl sok, de persze lementési lehetőséget is lehet biztosítani.
+
