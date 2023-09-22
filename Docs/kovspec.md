@@ -18,3 +18,8 @@ A vállakozásunk célja hogy az évek során összegyűjtött vicceket egy hely
 A viccek kedvelése és saját vicc hozzáadása is lehetséges.
 Az alkalmazásunk lehetőleg több operációs rendszerű mobiltelefonon, tableten is  működjön, reszponzív felülettel.
 Minden funkció hibátlanul működjön és megbízható felületet tudjunk biztosítani.
+
+## 5. A rendszerre vonatkozó szabályok:
+
+A rendszernek biztosítania kell a felhasználók személyes adatainak védelmét, és meg kell felelnie az adatvédelmi
+szabályoknak. A vicceknek megfelelőnek kell lenniük, és nem tartalmazhatnak sértő vagy megkülönböztető tartalmat.
