@@ -20,3 +20,8 @@ Kedvencek Gyűjteménye: A felhasználók kedvencek közé tehetik a legkedvelte
 később könnyen megtekinthetnek, ehez használhatunk egy adatbázist amiben valhol csináluk egy
 kedvencekhez tartozó részt .
 
+Viccek Hozzáadása: A regisztrált felhasználók új vicceket is hozzáadhatnak az alkalmazáshoz.
+A viccek hozzáadása során meg kell adni a kategóriát és a vicc szövegét egy menüben.
+Ezt esetleg egy ürlapos megoldással lehetne megcsinálni modnjuk ennek az ürlapnak a tartalmát
+mentjük egy adatbázisba.
+
