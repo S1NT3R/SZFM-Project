@@ -20,4 +20,4 @@ Samsung Galaxy S20+
 
 ## Képek és Hibajelentések:
 
-1. ![](hiba1.png)
+1. ![](hiba1.jpg)
