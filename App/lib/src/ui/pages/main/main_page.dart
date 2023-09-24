@@ -24,7 +24,7 @@ class _MainPageState extends State<MainPage> {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       Provider.of<JokeProvider>(context, listen: false).getCategories();
-      Provider.of<JokeProvider>(context, listen: false)
+      await Provider.of<JokeProvider>(context, listen: false)
           .getJokesByCategory("any", 10);
     });
   }
