@@ -1,10 +1,28 @@
-# Balogh Dávid
-
 # Szoftvertesztelési Jegyzőkönyv
 
 ## Projekt információk
 
 - Projekt neve: Viccgyüjtő alkalmazás
+
+## Tesztelő:
+
+Urbán Eszter
+
+## Tesztelő eszköz
+
+Samsung Galaxy S20+
+
+## Tesztesetek
+
+1. Lekérdezni kívánt viccek mennyiségének tesztelése.
+2. Kedvencek hozzáadása ha nincs beírva semmi.
+3. Random vicc lekérésének a tesztelése.
+
+## Képek és Hibajelentések:
+
+1. 10 vicc megjelenítése volt a tervezet.
+2. Üresen nem adható hozzá az a rész.
+3. Működik.
 
 ## Tesztelő:
 
@@ -30,6 +48,4 @@ Redmi Note 9 pro
 4. kedvenc vicc lementése működik.
 5. saját viccet el lehet menteni.
 6. jól megjelenik és el lehet menteni vele a viccet.
-
-
 

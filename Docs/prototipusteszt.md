@@ -1,4 +1,4 @@
-# Balogh Dávid
+# Szoftvertesztelési Jegyzőkönyv
 
 ## Projekt információk
 
@@ -6,6 +6,26 @@
 
 ## Tesztelő:
 
+Urbán Eszter
+
+## Tesztelő eszköz
+
+Samsung Galaxy S20+
+
+## Tesztesetek
+
+1. Megjelenítés tesztelése.
+2. A kedvenc gomb tesztelése.
+3. A kategória gombok tesztelése.
+
+## Képek és Hibajelentések:
+
+1. A kezdő képernyőn a szöveg rossz elhelyezkedése. 
+![](hiba1.jpg)
+2. A kedvencekhez adás nem működik megfelelően.
+3. Kategória gombok rossz helyre vezetnek.
+
+## Tesztelő:
 Balogh Dávid
 
 ## Tesztelő eszköz
@@ -14,7 +34,7 @@ Redmi Note 9 pro
 
 ## Tesztesetek
 
-1. Gobok tesztelése.
+1. Gombok tesztelése.
 2. Pop up ablak tesztelése.
 3. Véletlen vicc tesztelése.
 
@@ -23,3 +43,4 @@ Redmi Note 9 pro
 1. Az alkalmazás fő menüjében az kategória gomb megfelelően működik.
 2. A kedvencekhez adás képernyőn a pop up ablak megfelelően működik.
 3. A véletlenszerü vicc gomb ugyanazt a viccet jeleniti meg.
+
