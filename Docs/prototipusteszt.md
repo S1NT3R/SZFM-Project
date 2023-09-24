@@ -44,3 +44,24 @@ Redmi Note 9 pro
 2. A kedvencekhez adás képernyőn a pop up ablak megfelelően működik.
 3. A véletlenszerü vicc gomb ugyanazt a viccet jeleniti meg.
 
+
+## Tesztelő:
+
+Bellér Csaba
+
+## Tesztelő eszköz
+
+Samsung Galaxy S20FE
+
+## Tesztesetek
+
+1. Kezdő képernyő teszt.
+2. Popup ablak teszt.
+3. Kategóriák menü teszt.
+
+## Képek és Hibajelentések:
+
+1. A kezdő képernyőn az egyik főgomb szövege elcsúszva. 
+2. A kedvencekhez adás nem működik.
+3. Az alkalmazás fő menüjében az kategória gomb megfelelően működik, de félre vannak csúszva.
+
