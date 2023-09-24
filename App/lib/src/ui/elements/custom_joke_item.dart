@@ -48,7 +48,9 @@ class _CustomJokeItemState extends State<CustomJokeItem> {
                             shape: CircleBorder(),
                           ),
                         ),
-                        const SizedBox(width: 10,),
+                        const SizedBox(
+                          width: 10,
+                        ),
                         Expanded(
                           child: Text(
                             widget.setup ?? "",
@@ -57,7 +59,9 @@ class _CustomJokeItemState extends State<CustomJokeItem> {
                         ),
                       ],
                     ),
-                    const SizedBox(height: 10,),
+                    const SizedBox(
+                      height: 10,
+                    ),
                     Row(
                       children: [
                         Container(
@@ -83,9 +87,12 @@ class _CustomJokeItemState extends State<CustomJokeItem> {
                 ),
           trailing: IconButton(
             onPressed: () {},
-            icon: Icon(widget.isFavorite
-                ? Icons.favorite_rounded
-                : Icons.favorite_border),
+            icon: Icon(
+              widget.isFavorite
+                  ? Icons.favorite_rounded
+                  : Icons.favorite_border,
+            ),
+            color: ApplicationStyle.textColor,
           ),
         ),
       ),

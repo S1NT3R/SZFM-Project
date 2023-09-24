@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:jokes_app/src/models/joke/joke_model.dart';
 import 'package:jokes_app/src/providers/joke/joke_provider.dart';
 import 'package:jokes_app/src/resources/theme/application_style.dart';
+import 'package:jokes_app/src/ui/elements/custom_joke_item.dart';
 import 'package:jokes_app/src/ui/widgets/custom_appbar.dart';
 import 'package:provider/provider.dart';
 
@@ -19,46 +20,41 @@ class _JokesPageState extends State<JokesPage> {
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
   final FocusNode jokeFocus = FocusNode();
   List<JokeModel>? jokes;
-  String joke = "";
 
   @override
   void initState() {
     super.initState();
-    jokes = Provider.of<JokeProvider>(context, listen: false).jokeModels!;
   }
 
   @override
   Widget build(BuildContext context) {
+    jokes = Provider.of<JokeProvider>(context, listen: false).jokeModels!;
     return Scaffold(
       appBar: CustomAppbar(
         scaffoldKey: scaffoldKey,
         title: "My jokes",
       ),
-      body: Container(
-        color: ApplicationStyle.backgroundColor,
-        child: ListView.builder(
-          itemCount: jokes?.length,
-          itemBuilder: (context, index) {
-            return Container(
-              padding: const EdgeInsets.all(8.0),
+      body: Provider.of<JokeProvider>(context, listen: true).isLoading
+          ? Container(
               color: ApplicationStyle.primaryColor,
-              child: Card(
-                child: ListTile(
-                  contentPadding: const EdgeInsets.all(8.0),
-                  title: Text(
-                    jokes?[index].setup ?? "",
-                    style: Theme.of(context).textTheme.displayMedium,
-                  ),
-                  trailing: IconButton(
-                    onPressed: () {},
-                    icon: const Icon(Icons.favorite_border),
-                  ),
+              child: const Center(
+                child: CircularProgressIndicator(
+                  color: ApplicationStyle.textColor,
                 ),
               ),
-            );
-          },
-        ),
-      ),
+            )
+          : ListView.builder(
+              itemCount: 10,
+              itemBuilder: (context, index) {
+                return CustomJokeItem(
+                  joke: jokes?[index].joke,
+                  delivery: jokes?[index].delivery,
+                  setup: jokes?[index].setup,
+                  isFavorite: false,
+                  onTapFavorite: () {},
+                );
+              },
+            ),
     );
   }
 }
