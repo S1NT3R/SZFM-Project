@@ -20,6 +20,7 @@ Redmi Note 9 pro
 3. Kategóriák tesztelése.
 4. Kedvencek tesztelése.
 5. Saját vicc tesztelése.
+6. Pop up ablak tesztelés.
 
 ## Képek és Hibajelentések:
 
@@ -28,6 +29,7 @@ Redmi Note 9 pro
 3. Kategórizálás működik.
 4. kedvenc vicc lementése működik.
 5. saját viccet el lehet menteni.
+6. jól megjelenik és el lehet menteni vele a viccet.
 
 
 
