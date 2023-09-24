@@ -1,6 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:jokes_app/src/resources/theme/application_style.dart';
+import 'package:jokes_app/src/ui/elements/custom_joke_item.dart';
 import 'package:jokes_app/src/ui/widgets/custom_appbar.dart';
 
 @RoutePage()
@@ -14,11 +15,8 @@ class FavoritesPage extends StatefulWidget {
 class _FavoritesPageState extends State<FavoritesPage> {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> jokes = [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc enim est, varius nec",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc enim est, varius nec accumsan sit amet,",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc enim est, varius nec accumsan sit amet, dignissim eget lorem.",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc enim est, varius nec accumsan sit amet, dignissim eget lorem. Quisque.",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget ornare diam. Integer ut arcu tempor, aliquam risus eget, eleifend urna. In tempor pellentesque imperdiet.",
+    "Is it still work in progress?",
+    "Of course it is still work in progress, sorry for the inconvenience",
   ];
   @override
   Widget build(BuildContext context) {
@@ -27,27 +25,18 @@ class _FavoritesPageState extends State<FavoritesPage> {
         scaffoldKey: scaffoldKey,
         title: "Favorites",
       ),
-      body: ListView.builder(
-        itemCount: jokes.length,
-        itemBuilder: (context, index) {
-          return Container(
-            padding: const EdgeInsets.all(8.0),
-            color: ApplicationStyle.primaryColor,
-            child: Card(
-              child: ListTile(
-                contentPadding: const EdgeInsets.all(8.0),
-                title: Text(
-                  jokes[index],
-                  style: Theme.of(context).textTheme.displayMedium,
-                ),
-                trailing: IconButton(
-                  onPressed: () {},
-                  icon: const Icon(Icons.favorite_border),
-                ),
-              ),
-            ),
-          );
-        },
+      body: Container(
+        color: ApplicationStyle.primaryColor,
+        child: ListView.builder(
+          itemCount: jokes.length,
+          itemBuilder: (context, index) {
+            return CustomJokeItem(
+              joke: jokes[index],
+              isFavorite: true,
+              onTapFavorite: () {},
+            );
+          },
+        ),
       ),
     );
   }
