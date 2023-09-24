@@ -42,16 +42,13 @@ class _MainPageState extends State<MainPage> {
         height: double.infinity,
         child: Column(
           children: [
-            SizedBox(
-              width: MediaQuery.of(context).size.width * 0.5,
-              child: CustomTextButton(
-                title: "Make your day with a JOKE",
-                onPressed: () {
-                  AutoRouter.of(context).navigate(
-                    const RandomJokeRoute(),
-                  );
-                },
-              ),
+            CustomTextButton(
+              title: "Make\n your\n day\n with a\n JOKE",
+              onPressed: () {
+                AutoRouter.of(context).navigate(
+                  const RandomJokeRoute(),
+                );
+              },
             ),
             CustomTextButton(
               title: "Categories",
