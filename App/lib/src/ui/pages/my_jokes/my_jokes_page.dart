@@ -2,6 +2,7 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:jokes_app/src/resources/preferences/joke_preference.dart';
 import 'package:jokes_app/src/resources/theme/application_style.dart';
+import 'package:jokes_app/src/ui/elements/custom_joke_item.dart';
 import 'package:jokes_app/src/ui/widgets/custom_appbar.dart';
 
 @RoutePage()
@@ -25,8 +26,8 @@ class _MyJokesPageState extends State<MyJokesPage> {
 
   @override
   void initState() {
-    loadJokes();
     super.initState();
+    loadJokes();
   }
 
   void addJokeModalBottomSheet() {
@@ -131,63 +132,18 @@ class _MyJokesPageState extends State<MyJokesPage> {
         child: const Icon(Icons.add),
       ),
       body: Container(
-          color: ApplicationStyle.backgroundColor,
-          child: FutureBuilder<List<String>>(
-            future: JokePreference().getJokes(),
-            builder: (context, snapshot) {
-              if (snapshot.hasData) {
-                return ListView.builder(
-                  itemCount: snapshot.data!.length,
-                  itemBuilder: (context, index) {
-                    return Container(
-                      padding: const EdgeInsets.all(8.0),
-                      color: ApplicationStyle.primaryColor,
-                      child: Card(
-                        child: ListTile(
-                          contentPadding: const EdgeInsets.all(8.0),
-                          title: Text(
-                            snapshot.data![index],
-                            style: Theme.of(context).textTheme.displayMedium,
-                          ),
-                          trailing: IconButton(
-                            onPressed: () {},
-                            icon: const Icon(Icons.favorite_border_rounded),
-                          ),
-                        ),
-                      ),
-                    );
-                  },
-                );
-              } else {
-                return const Center(
-                  child: CircularProgressIndicator(),
-                );
-              }
-            },
-          )
-          // ListView.builder(
-          //   itemCount: jokes.length,
-          //   itemBuilder: (context, index) {
-          //     return Container(
-          //       padding: const EdgeInsets.all(8.0),
-          //       color: ApplicationStyle.primaryColor,
-          //       child: Card(
-          //         child: ListTile(
-          //           contentPadding: const EdgeInsets.all(8.0),
-          //           title: Text(
-          //             jokes[index],
-          //             style: Theme.of(context).textTheme.displayMedium,
-          //           ),
-          //           trailing: IconButton(
-          //             onPressed: () {},
-          //             icon: const Icon(Icons.favorite_border),
-          //           ),
-          //         ),
-          //       ),
-          //     );
-          //   },
-          // ),
-          ),
+        color: ApplicationStyle.backgroundColor,
+        child: ListView.builder(
+          itemCount: jokes.length,
+          itemBuilder: (context, index) {
+            return CustomJokeItem(
+              joke: jokes[index],
+              isFavorite: true,
+              onTapFavorite: () {},
+            );
+          },
+        ),
+      ),
     );
   }
 }
