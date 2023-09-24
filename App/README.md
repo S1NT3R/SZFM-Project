@@ -1,4 +1,4 @@
-# SZFM-Project: Jokes app
+# jokes_app
 
 A new Flutter project.
 
