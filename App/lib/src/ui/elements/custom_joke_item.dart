@@ -41,12 +41,14 @@ class _CustomJokeItemState extends State<CustomJokeItem> {
                     Row(
                       children: [
                         Container(
-                          width: MediaQuery.of(context).size.width * 0.1,
+                          width: 8,
+                          height: 8,
                           decoration: const ShapeDecoration(
                             color: ApplicationStyle.textColor,
                             shape: CircleBorder(),
                           ),
                         ),
+                        const SizedBox(width: 10,),
                         Expanded(
                           child: Text(
                             widget.setup ?? "",
@@ -55,14 +57,19 @@ class _CustomJokeItemState extends State<CustomJokeItem> {
                         ),
                       ],
                     ),
+                    const SizedBox(height: 10,),
                     Row(
                       children: [
                         Container(
-                          width: MediaQuery.of(context).size.width * 0.1,
+                          width: 8,
+                          height: 8,
                           decoration: const ShapeDecoration(
                             color: ApplicationStyle.textColor,
                             shape: CircleBorder(),
                           ),
+                        ),
+                        const SizedBox(
+                          width: 10,
                         ),
                         Expanded(
                           child: Text(
