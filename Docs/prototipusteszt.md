@@ -14,10 +14,13 @@ Samsung Galaxy S20+
 
 ## Tesztesetek
 
-1. A kezdő képernyőn a szöveg rossz elhelyezkedése.
-2. A kedvencekhez adás nem működik megfelelően.
-3. Kategória gombok rossz helyre vezetnek.
+1. Megjelenítés tesztelése.
+2. A kedvenc gomb tesztelése.
+3. A kategória gombok tesztelése.
 
 ## Képek és Hibajelentések:
 
-1. ![](hiba1.jpg)
+1. A kezdő képernyőn a szöveg rossz elhelyezkedése. 
+![](hiba1.jpg)
+2. A kedvencekhez adás nem működik megfelelően.
+3. Kategória gombok rossz helyre vezetnek.
