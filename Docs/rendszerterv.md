@@ -59,6 +59,7 @@ A felhasználók beírhatják a keresett vicc címét vagy kulcsszavait.
 A képernyő alján található egy 
 navigációs sáv, amely lehetővé teszi a felhasználók számára hogy, váltogassanak a különböző nézetek kjözött, mint például
 a saját viccek listája vagy a beállítások képernyője.
+Backendhez egy MIT license által védett API-t a JokesAPI-t használunk, amit saját felhasználásra ingyenesen lehet használni.
 
 ## Felhasználói Interfésze:
 
@@ -179,3 +180,8 @@ A viccekhez tartozik egy cím egy szöveg és egy kategória.
 A felhasználók beírhatják a keresett vicc címét vagy kulcsszavait.
 A képernyő alján található egy navigációs sáv, amely lehetővé teszi a felhasználók számára hogy, váltogassanak a különböző nézetek között, mint például a saját viccek listája vagy a beállítások képernyője.
 
+## Csapattagok:
+
+ - Bellér Csaba: fejlesztő
+ - Balogh Dávid: fejlesztő
+ - Urban Eszter: fejlesztő
